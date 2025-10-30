@@ -1,41 +1,70 @@
 {
   "main": {
-    "id": "404d7db7bf4b774f",
+    "id": "main-split",
     "type": "split",
     "children": [
       {
-        "id": "0ccfd1d77ea2b4aa",
+        "id": "primary-tabs",
         "type": "tabs",
         "children": [
           {
-            "id": "36825e22ecc320ed",
+            "id": "overview-leaf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06_Factions/He_Who_Fights_with_Monsters_8.md",
+                "file": "00_Overview/Map_View_Quickstart.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "He_Who_Fights_with_Monsters_8"
+              "title": "Map_View_Quickstart"
+            }
+          },
+          {
+            "id": "resources-leaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4 - Details/Resources - Materials/Resources.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Resources"
+            }
+          },
+          {
+            "id": "deities-leaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "09_Characters_Key_Figures/deities_supernatural_beings/deities_supernatural_beings.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "deities_supernatural_beings"
             }
           }
-        ]
+        ],
+        "currentTab": 0
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "3277380a54351739",
+    "id": "left-split",
     "type": "split",
     "children": [
       {
-        "id": "f9d2c80610b1ca88",
+        "id": "left-tabs",
         "type": "tabs",
         "children": [
           {
-            "id": "ee8f43f301287eb6",
+            "id": "files-leaf",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,12 +77,12 @@
             }
           },
           {
-            "id": "7d2360e389bc6908",
+            "id": "search-leaf",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:mapview",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +94,7 @@
             }
           },
           {
-            "id": "45466f7db8bbadae",
+            "id": "bookmarks-leaf",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +110,20 @@
     "width": 300
   },
   "right": {
-    "id": "1c51ea6f9c826334",
+    "id": "right-split",
     "type": "split",
     "children": [
       {
-        "id": "d8d2c630a16e053d",
+        "id": "right-tabs",
         "type": "tabs",
         "children": [
           {
-            "id": "2aa884c31bcf50da",
+            "id": "backlinks-leaf",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02_World/World_Map_Leaflet.md",
+                "file": "00_Overview/Map_View_Quickstart.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +133,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for World_Map_Leaflet"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "11f2622ab0bcbabc",
+            "id": "outgoing-leaf",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02_World/World_Map_Leaflet.md",
+                "file": "00_Overview/Map_View_Quickstart.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from World_Map_Leaflet"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "570fc422fb193870",
+            "id": "tags-leaf",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,42 +166,21 @@
             }
           },
           {
-            "id": "7cd32b01b3fa8df1",
+            "id": "outline-leaf",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "02_World/World_Map_Leaflet.md",
+                "file": "00_Overview/Map_View_Quickstart.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of World_Map_Leaflet"
-            }
-          },
-          {
-            "id": "48aabac4b823d8a8",
-            "type": "leaf",
-            "state": {
-              "type": "BC-matrix",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "BC-matrix"
-            }
-          },
-          {
-            "id": "987a29bbab4cc340",
-            "type": "leaf",
-            "state": {
-              "type": "BC-tree",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "BC-tree"
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,46 +194,20 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-leaflet-plugin:Open Leaflet Map": false
+      "bases:Create new base": false
     }
   },
-  "active": "36825e22ecc320ed",
+  "active": "overview-leaf",
   "lastOpenFiles": [
-    "He_Who_Fights_with_Monsters_7_-_Shirtaloon.md",
+    "4 - Details/Resources - Materials/Resources.md",
+    "09_Characters_Key_Figures/deities_supernatural_beings/deities_supernatural_beings.md",
     "06_Factions/He_Who_Fights_with_Monsters_8.md",
-    "Untitled.md",
-    "02_World/World_Map_Leaflet.md",
-    "04_Settlements/Index.md",
-    "Templates/Leaflet temp.md",
-    "02_World/Assets/world_map_placeholder.png",
-    "Dashboards/Map_View_CustomOffline_World.md",
-    "Dashboards/Map_View_Dashboard.md",
-    "00_Overview/Map_View_Quickstart.md",
-    "Templates/Encounter_Template.md",
-    "Templates/Quest_Template.md",
-    "Templates/NPC_Template.md",
-    "world_map_placeholder.md",
-    "02_World/Climate_Systems.md",
-    "02_World/World_DNA.md",
-    "02_World/Assets/world map.md",
+    "06_Factions/Wanderers_Guild/Overview.md",
     "04_Settlements/Eastgate/Overview.md",
-    "03_Regions/The_Wild_Reach/Travel_Notes.md",
-    "03_Regions/The_Wild_Reach/Trade_Routes.md",
     "03_Regions/The_Wild_Reach/Region_Profile.md",
-    "03_Regions/The_Wild_Reach/Politics.md",
-    "03_Regions/The_Wild_Reach/Myths_and_Legends.md",
-    "03_Regions/The_Wild_Reach/Map_Leaflet.md",
-    "03_Regions/The_Wild_Reach/Local_NPCs.md",
-    "03_Regions/The_Wild_Reach/Local_Factions.md",
-    "03_Regions/The_Wild_Reach/Hooks_and_Events.md",
-    "Dashboards",
-    "03_Regions/The_Wild_Reach/Assets/wild_reach_placeholder.png",
-    "09_Travel/Eastgate-The_Fogline/Assets/route_map_placeholder.png",
-    "09_Travel/Eastgate-The_Fogline/Assets",
-    "03_Regions/The_Wild_Reach/Assets",
-    "02_World/Assets"
+    "02_World/World_Map_Leaflet.md",
+    "02_World/World_DNA.md",
+    "01_Foundation_Concept/world_overview/index.md",
+    "00_Overview/Map_View_Quickstart.md"
   ]
 }

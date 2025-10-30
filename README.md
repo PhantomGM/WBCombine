@@ -1,3 +1,9 @@
 # WBCombine
 
-This repository now contains a single consolidated World Bible vault under the `World_Bible/` directory. All content from the prior `World_Bible1`, `World_Bible_`, and `world_bible` folders has been merged into this unified structure for easier navigation and maintenance.
+This repository now contains a single consolidated Obsidian vault at `World_Bible/`. The folder unifies the content that used to live in:
+
+- `World_Bible1`
+- `world_bible`
+- `World_Bible_`
+
+Feel free to explore the combined structure or open it directly in Obsidian.
